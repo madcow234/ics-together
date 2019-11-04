@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Socket.IO chat</title>
+    <title>ICS Together</title>
     <style>
       * {
         margin: 0;
@@ -31,8 +31,35 @@
         border: none;
         padding: 10px;
       }
+      #clock-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        width: 100vw;
+      }
+      #clock {
+        font-size: 8em;
+        user-select: none; /* supported by Chrome and Opera */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+      }
+      .default-clock {
+        color: black;
+      }
+      .two-minute-warning {
+        color: yellow;
+      }
+      .thirty-second-alert {
+        color: red;
+      }
+      .its-time-success {
+        color: green;
+      }
       #messages-container {
-        height: calc(100vh - 2em - 41px);
+        height: 50vh;
         width: 100vw;
         padding-bottom: 10px;
         overflow-y: auto;
@@ -63,6 +90,9 @@
     </style>
   </head>
   <body>
+    <div id="clock-container">
+      <span id="clock"></span>
+    </div>
     <div id="messages-container">
       <ul id="messages"></ul>
     </div>
@@ -90,12 +120,14 @@
             username: $('#username').val() || '(anonymous)',
             message: $('#message').val()
           };
-          socket.emit('messages', messageData);
-          $('#messages').append(
-            $('<li>').text(messageData.username + ': ' + messageData.message)
-          );
-          scrollToBottom();
-          $('#message').val('');
+          if (messageData.message !== '') {
+            socket.emit('messages', messageData);
+            $('#messages').append(
+              $('<li>').text(messageData.username + ': ' + messageData.message)
+            );
+            scrollToBottom();
+            $('#message').val('');
+          }
           socket.emit('stopped_typing', messageData.username);
           return false;
         });
@@ -145,6 +177,40 @@
                 currentlyTypingList.join(', ') +
                 ' are typing...</div>'
             );
+          }
+        });
+
+        socket.on('clock', utc => {
+          var now = new Date(utc).toLocaleString('en-US', {
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+            hour12: true
+          });
+
+          $('#clock').html(now);
+
+          var itsTime = now.includes(':20:');
+
+          var thirtySeconds =
+            now.includes(':19:') &&
+            (now.includes(':3') || now.includes(':4') || now.includes(':5'));
+
+          var twoMinutes = now.includes(':18:') || now.includes(':19:');
+
+          $('#clock').removeClass('its-time-success');
+          $('#clock').removeClass('thirty-second-alert');
+          $('#clock').removeClass('two-minute-warning');
+          $('#clock').removeClass('default-clock');
+
+          if (itsTime) {
+            $('#clock').addClass('its-time-success');
+          } else if (thirtySeconds) {
+            $('#clock').addClass('thirty-second-alert');
+          } else if (twoMinutes) {
+            $('#clock').addClass('two-minute-warning');
+          } else {
+            $('#clock').addClass('default-clock');
           }
         });
 
