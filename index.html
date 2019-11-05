@@ -46,6 +46,12 @@
         -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
       }
+      .user-countdown {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: absolute;
+      }
       .default-clock {
         color: black;
       }
@@ -111,6 +117,7 @@
       $(function() {
         var socket = io();
         var typingList = new Array();
+        var numCountdowns = 0;
 
         $('#messages').append($('<li>').text('You are connected.'));
 
@@ -190,27 +197,47 @@
 
           $('#clock').html(now);
 
-          var itsTime = now.includes(':20:');
+          var twoMinutes = now.includes(':18:') || now.includes(':19:');
 
           var thirtySeconds =
             now.includes(':19:') &&
             (now.includes(':3') || now.includes(':4') || now.includes(':5'));
 
-          var twoMinutes = now.includes(':18:') || now.includes(':19:');
+          var itsTime = now.includes(':20:');
 
-          $('#clock').removeClass('its-time-success');
-          $('#clock').removeClass('thirty-second-alert');
-          $('#clock').removeClass('two-minute-warning');
-          $('#clock').removeClass('default-clock');
+          const removeAllClockClassesExcept = currentClass => {
+            [
+              'default-clock',
+              'two-minute-warning',
+              'thirty-second-alert',
+              'its-time-success'
+            ].forEach(classToRemove => {
+              if (classToRemove !== currentClass) {
+                $('#clock').removeClass(classToRemove);
+              }
+            });
+          };
 
           if (itsTime) {
-            $('#clock').addClass('its-time-success');
+            removeAllClockClassesExcept('its-time-success');
+            if (!$('#clock').hasClass('its-time-success')) {
+              $('#clock').addClass('its-time-success');
+            }
           } else if (thirtySeconds) {
-            $('#clock').addClass('thirty-second-alert');
+            removeAllClockClassesExcept('thirty-second-alert');
+            if (!$('#clock').hasClass('thirty-second-alert')) {
+              $('#clock').addClass('thirty-second-alert');
+            }
           } else if (twoMinutes) {
-            $('#clock').addClass('two-minute-warning');
+            removeAllClockClassesExcept('two-minute-warning');
+            if (!$('#clock').hasClass('two-minute-warning')) {
+              $('#clock').addClass('two-minute-warning');
+            }
           } else {
-            $('#clock').addClass('default-clock');
+            removeAllClockClassesExcept('default-clock');
+            if (!$('#clock').hasClass('default-clock')) {
+              $('#clock').addClass('default-clock');
+            }
           }
         });
 
