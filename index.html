@@ -31,20 +31,19 @@
         border: none;
         padding: 10px;
       }
+      #upcoming-420 {
+        font-size: 3vw;
+      }
+      #clock {
+        font-size: 8vw;
+      }
       #clock-container {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 50vh;
         width: 100vw;
-      }
-      #clock {
-        font-size: 8em;
-        user-select: none; /* supported by Chrome and Opera */
-        -webkit-user-select: none; /* Safari */
-        -khtml-user-select: none; /* Konqueror HTML */
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
       }
       .user-countdown {
         height: 100px;
@@ -93,10 +92,18 @@
       #message {
         width: calc(90% - 18em);
       }
+      .no-select {
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* supported by Chrome and Opera */
+      }
     </style>
   </head>
   <body>
-    <div id="clock-container">
+    <div id="clock-container" class="no-select">
+      <span id="upcoming-420"></span>
       <span id="clock"></span>
     </div>
     <div id="messages-container">
@@ -115,134 +122,141 @@
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <script>
       $(function() {
-        var socket = io();
-        var typingList = new Array();
-        var numCountdowns = 0;
+        let socket = io();
+        let typingList = new Array();
+        let numCountdowns = 0;
 
-        $('#messages').append($('<li>').text('You are connected.'));
+        // The server will update the clock 10 times per second, but we don't want
+        //   jQuery constantly updating the DOM, so always check to see if the
+        //   client actually needs to be updated before invoking jQuery functions.
+        socket.on("clock", clock => {
+          let time = new Date(clock.time).toLocaleString("en-US", {
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric",
+            hour12: true
+          });
 
-        $('form').submit(e => {
+          let upcoming420String = `Coming up: ${clock.upcoming420Timezone}`;
+
+          if ($("#upcoming-420").html() !== upcoming420String) {
+            $("#upcoming-420").html(upcoming420String);
+          }
+
+          // Update the clock time if it changes
+          if ($("#clock").html() !== time) {
+            $("#clock").html(time);
+          }
+
+          // Update the CSS class if it changes
+          if (!$("#clock").hasClass(clock.cssClass)) {
+            $("#clock").removeClass();
+            $("#clock").addClass(clock.cssClass);
+          }
+        });
+
+        $("#messages").append($("<li>").text("You are connected."));
+
+        $("#clock-container").click(e => {
+          // Require a shift-click to start a countdown
+          if (e.shiftKey) {
+            // Prevent starting a countdown overtop of an existing countdown
+            if (e.target.id === "clock-container" || e.target.id === "clock") {
+              if ($("#username").val() !== "") {
+                let xPos = (e.clientX / $(document).width()) * 100;
+                let yPos = (e.clientY / $(document).height()) * 100;
+                let countdownData = {
+                  username: $("#username").val(),
+                  xPosition: xPos,
+                  yPosition: yPos
+                };
+                socket.emit("initiate_countdown", countdownData);
+              }
+            }
+          }
+        });
+
+        socket.on("run_countdown", countdown => {
+          if (countdown.action === "remove") {
+            $(`#${countdown.id}`).remove();
+          } else if (countdown.action === "create") {
+            $("#clock-container").append(countdown.container);
+          } else if (countdown.action === "update") {
+            if (!$(`#${countdown.id}`).length) {
+              $("#clock-container").append(countdown.container);
+            }
+            $(`#${countdown.id}`).html(countdown.content);
+          }
+        });
+
+        $("form").submit(e => {
           e.preventDefault();
           var messageData = {
-            username: $('#username').val() || '(anonymous)',
-            message: $('#message').val()
+            username: $("#username").val() || "(anonymous)",
+            message: $("#message").val()
           };
-          if (messageData.message !== '') {
-            socket.emit('messages', messageData);
-            $('#messages').append(
-              $('<li>').text(messageData.username + ': ' + messageData.message)
+          if (messageData.message !== "") {
+            socket.emit("messages", messageData);
+            $("#messages").append(
+              $("<li>").text(messageData.username + ": " + messageData.message)
             );
             scrollToBottom();
-            $('#message').val('');
+            $("#message").val("");
           }
-          socket.emit('stopped_typing', messageData.username);
+          socket.emit("stopped_typing", messageData.username);
           return false;
         });
 
-        $('#message').on('input', () => {
-          var username = $('#username').val() || '(anonymous)';
-          if ($('#message').val() === '') {
-            socket.emit('stopped_typing', username);
+        $("#message").on("input", () => {
+          var username = $("#username").val() || "(anonymous)";
+          if ($("#message").val() === "") {
+            socket.emit("stopped_typing", username);
           } else {
             if (!typingList.includes(username)) {
-              socket.emit('started_typing', username);
+              socket.emit("started_typing", username);
             }
           }
 
-          var prevMessage = $('#message').val();
+          var prevMessage = $("#message").val();
           setTimeout(() => {
-            if (prevMessage === $('#message').val()) {
-              socket.emit('stopped_typing', username);
+            if (prevMessage === $("#message").val()) {
+              socket.emit("stopped_typing", username);
             }
           }, 3000);
         });
 
-        socket.on('messages', data => {
-          $('#messages').append(
-            $('<li>').text(data.username + ': ' + data.message)
+        socket.on("messages", data => {
+          $("#messages").append(
+            $("<li>").text(data.username + ": " + data.message)
           );
           scrollToBottom();
         });
 
-        socket.on('connections', msg => {
-          $('#messages').append($('<li>').text(msg));
+        socket.on("connections", msg => {
+          $("#messages").append($("<li>").text(msg));
           scrollToBottom();
         });
 
-        socket.on('typing_status', currentlyTypingList => {
+        socket.on("typing_status", currentlyTypingList => {
           typingList = currentlyTypingList;
-          $('#typing-status-message').remove();
+          $("#typing-status-message").remove();
           if (currentlyTypingList.length === 1) {
-            $('#typing-status').append(
+            $("#typing-status").append(
               '<div id="typing-status-message">' +
                 currentlyTypingList +
-                ' is typing...</div>'
+                " is typing...</div>"
             );
           } else if (currentlyTypingList.length > 1) {
-            $('#typing-status').append(
+            $("#typing-status").append(
               '<div id="typing-status-message">' +
-                currentlyTypingList.join(', ') +
-                ' are typing...</div>'
+                currentlyTypingList.join(", ") +
+                " are typing...</div>"
             );
-          }
-        });
-
-        socket.on('clock', utc => {
-          var now = new Date(utc).toLocaleString('en-US', {
-            hour: 'numeric',
-            minute: 'numeric',
-            second: 'numeric',
-            hour12: true
-          });
-
-          $('#clock').html(now);
-
-          var twoMinutes = now.includes(':18:') || now.includes(':19:');
-
-          var thirtySeconds =
-            now.includes(':19:') &&
-            (now.includes(':3') || now.includes(':4') || now.includes(':5'));
-
-          var itsTime = now.includes(':20:');
-
-          const removeAllClockClassesExcept = currentClass => {
-            [
-              'default-clock',
-              'two-minute-warning',
-              'thirty-second-alert',
-              'its-time-success'
-            ].forEach(classToRemove => {
-              if (classToRemove !== currentClass) {
-                $('#clock').removeClass(classToRemove);
-              }
-            });
-          };
-
-          if (itsTime) {
-            removeAllClockClassesExcept('its-time-success');
-            if (!$('#clock').hasClass('its-time-success')) {
-              $('#clock').addClass('its-time-success');
-            }
-          } else if (thirtySeconds) {
-            removeAllClockClassesExcept('thirty-second-alert');
-            if (!$('#clock').hasClass('thirty-second-alert')) {
-              $('#clock').addClass('thirty-second-alert');
-            }
-          } else if (twoMinutes) {
-            removeAllClockClassesExcept('two-minute-warning');
-            if (!$('#clock').hasClass('two-minute-warning')) {
-              $('#clock').addClass('two-minute-warning');
-            }
-          } else {
-            removeAllClockClassesExcept('default-clock');
-            if (!$('#clock').hasClass('default-clock')) {
-              $('#clock').addClass('default-clock');
-            }
           }
         });
 
         const scrollToBottom = () => {
-          $('#messages-container').scrollTop($('#messages').height());
+          $("#messages-container").scrollTop($("#messages").height());
         };
       });
     </script>
