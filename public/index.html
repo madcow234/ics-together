@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ICS Together</title>
+    <meta name="Description" content="ICS with people from around the world." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <body>
+    <div id="countdown-container" class="no-select">
+      <div id="upcoming-container">
+        <div id="offset-container">
+          <div id="am-offset"></div>
+          <div id="pm-offset"></div>
+        </div>
+        <div id="upcoming-timezones">
+          <div id="am-timezones">
+            <div id="am-timezone"></div>
+            <div id="am-cities">
+              <div id="am-cities-slider"></div>
+            </div>
+          </div>
+          <div id="pm-timezones">
+            <div id="pm-timezone"></div>
+            <div id="pm-cities">
+              <div id="pm-cities-slider"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="clock-container">
+        <span id="clock"></span>
+      </div>
+    </div>
+    <div id="communication-container">
+      <div id="messages-container">
+        <ul id="messages"></ul>
+      </div>
+      <div id="typing-status">
+        <span id="typing-status-message"></span>
+      </div>
+      <form action="">
+        <label for="username">
+          <input
+            id="username"
+            autocomplete="off"
+            placeholder="Username"
+            type="username"
+            name="username"
+            aria-label="username"
+          />
+        </label>
+        <label for="message">
+          <input
+            id="message"
+            autocomplete="off"
+            placeholder="Type a message..."
+            type="text"
+            name="message"
+            aria-label="message"
+          />
+        </label>
+        <button>Send</button>
+      </form>
+    </div>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/ics.js"></script>
+  </body>
+</html>

@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  font: 13px Helvetica, Arial;
+}
+form {
+  background: #000;
+  padding: 3px;
+  height: 41px;
+  width: 100%;
+}
+form input {
+  border: 0;
+  padding: 10px;
+}
+form button {
+  width: calc(10% - 8px);
+  background: rgb(130, 224, 255);
+  border: none;
+  padding: 10px;
+}
+#countdown-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100vw;
+}
+#upcoming-container {
+  display: none;
+  flex-direction: column;
+  border-bottom: 2px solid #eee;
+  height: 250px;
+  width: 100vw;
+}
+#offset-container {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  width: 100vw;
+}
+#am-offset {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50vw;
+  border-bottom: 2px solid #eee;
+  border-right: 1px solid #eee;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+}
+#pm-offset {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50vw;
+  border-bottom: 2px solid #eee;
+  border-left: 1px solid #eee;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+}
+#upcoming-timezones {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  width: 100vw;
+}
+#am-timezones {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eee;
+  width: 50vw;
+}
+#am-timezone {
+  display: flex;
+  height: 40%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#am-cities {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+#am-cities-slider {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  animation: slide infinite 60s linear;
+}
+#pm-timezones {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #eee;
+  width: 50vw;
+}
+#pm-timezone {
+  display: flex;
+  height: 40%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#pm-cities {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+#pm-cities-slider {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+}
+.timezone {
+  /* background-color: #eee; */
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 4px;
+}
+.city {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #eee; */
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 4px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/*@keyframes slide {*/
+/*  from {*/
+/*    transform: translate(0, 0);*/
+/*  }*/
+/*  to {*/
+/*    transform: translate(var(--slider-width), 0);*/
+/*  }*/
+/*}*/
+
+#clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100vw;
+}
+
+#clock {
+  font-size: 12vh;
+}
+@media screen and (max-width: 768px) {
+  #clock {
+    font-size: 8vh;
+  }
+}
+
+#communication-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100vw;
+}
+#messages-container {
+  height: 100%;
+  width: 100vw;
+  padding-bottom: 10px;
+  overflow-y: auto;
+}
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#messages li {
+  padding: 5px 10px;
+  word-wrap: break-word;
+}
+#messages li:nth-child(odd) {
+  background: #eee;
+}
+#typing-status {
+  height: 2em;
+  width: 100%;
+  padding: 4px 8px;
+}
+#username {
+  width: 18em;
+}
+#message {
+  width: calc(90% - 18em);
+}
+.user-countdown {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+}
+.default-clock {
+  color: black;
+}
+.two-minute-warning {
+  color: yellow;
+}
+.thirty-second-alert {
+  color: red;
+}
+.its-time-target {
+  color: green;
+}
+.no-select {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* supported by Chrome and Opera */
+}
