@@ -1,0 +1,4606 @@
+{
+  "+14": [
+    {
+      "abbr": "LINT",
+      "name": "Line Islands Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Kiritimati",
+          "state": "Line Islands",
+          "country": "Kiribati"
+        }
+      ]
+    },
+    {
+      "abbr": "WST",
+      "name": "West Samoa Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [
+        {
+          "abbr": "ST",
+          "name": "Samoa Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Apia",
+          "country": "Samoa"
+        },
+        {
+          "city": "Salelologa",
+          "state": "Savai'i",
+          "country": "Samoa"
+        }
+      ]
+    }
+  ],
+  "+13:45": [
+    {
+      "abbr": "CHADT",
+      "name": "Chatham Island Daylight Time",
+      "isDst": true,
+      "locations": ["Pacific"],
+      "aka": [
+        {
+          "abbr": "CDT",
+          "name": "Chatham Daylight Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Chatham Island",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Forty-Fours",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Little Mangere",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Pitt Island",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "South East Island",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Star Keys",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "The Fort",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "The Sisters",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        }
+      ]
+    }
+  ],
+  "+13": [
+    {
+      "abbr": "FJST",
+      "name": "Fiji Summer Time",
+      "isDst": true,
+      "locations": ["Pacific"],
+      "aka": [
+        {
+          "abbr": "FJDT",
+          "name": "Fiji Daylight Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Labasa",
+          "state": "Vanua Levu",
+          "country": "Fiji"
+        },
+        {
+          "city": "Suva",
+          "state": "Viti Levu",
+          "country": "Fiji"
+        }
+      ]
+    },
+    {
+      "abbr": "NZDT",
+      "name": "New Zealand Daylight Time",
+      "isDst": true,
+      "locations": ["Pacific", "Antarctica"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Auckland",
+          "state": "North Island",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Christchurch",
+          "state": "South Island",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Wellington",
+          "state": "North Island",
+          "country": "New Zealand"
+        }
+      ]
+    },
+    {
+      "abbr": "PHOT",
+      "name": "Phoenix Island Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Kanton Island",
+          "state": "Phoenix Islands",
+          "country": "Kiribati"
+        },
+        {
+          "city": "Rawaki",
+          "state": "Phoenix Islands",
+          "country": "Kiribati"
+        }
+      ]
+    },
+    {
+      "abbr": "TKT",
+      "name": "Tokelau Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Atafu",
+          "state": "Tokelau",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Fakaofo",
+          "state": "Tokelau",
+          "country": "New Zealand"
+        }
+      ]
+    },
+    {
+      "abbr": "TOT",
+      "name": "Tonga Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Neiafu",
+          "state": "Vavaʻu",
+          "country": "Tonga"
+        },
+        {
+          "city": "Nuku'alofa",
+          "state": "Tongatapu",
+          "country": "Tonga"
+        },
+        {
+          "city": "Pangai",
+          "state": "Lifuka",
+          "country": "Tonga"
+        }
+      ]
+    }
+  ],
+  "+12:45": [
+    {
+      "abbr": "CHAST",
+      "name": "Chatham Island Standard Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Chatham Island",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Forty-Fours",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Little Mangere",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Pitt Island",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "South East Island",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Star Keys",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "The Fort",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        },
+        {
+          "city": "The Sisters",
+          "state": "Chatham Islands",
+          "country": "New Zealand"
+        }
+      ]
+    }
+  ],
+  "+12": [
+    {
+      "abbr": "ANAT",
+      "name": "Anadyr Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Anadyr",
+          "state": "Chukotka Okrug",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "FJT",
+      "name": "Fiji Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Labasa",
+          "state": "Vanua Levu",
+          "country": "Fiji"
+        },
+        {
+          "city": "Suva",
+          "state": "Viti Levu",
+          "country": "Fiji"
+        }
+      ]
+    },
+    {
+      "abbr": "GILT",
+      "name": "Gilbert Island Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Tabiteuea",
+          "state": "Gilbert Islands",
+          "country": "Kiribati"
+        },
+        {
+          "city": "Tarawa",
+          "state": "Gilbert Islands",
+          "country": "Kiribati"
+        }
+      ]
+    },
+    {
+      "abbr": "M",
+      "name": "Mike Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "MHT",
+      "name": "Marshall Islands Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Kwajalein",
+          "state": "Ralik Chain",
+          "country": "Marshall Islands"
+        },
+        {
+          "city": "Majuro",
+          "state": "Ratak Chain",
+          "country": "Marshall Islands"
+        }
+      ]
+    },
+    {
+      "abbr": "NRT",
+      "name": "Nauru Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Denigomodu",
+          "country": "Nauru"
+        },
+        {
+          "city": "Yaren",
+          "country": "Nauru"
+        }
+      ]
+    },
+    {
+      "abbr": "NZST",
+      "name": "New Zealand Standard Time",
+      "isDst": false,
+      "locations": ["Pacific", "Antarctica"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Auckland",
+          "state": "North Island",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Christchurch",
+          "state": "South Island",
+          "country": "New Zealand"
+        },
+        {
+          "city": "Wellington",
+          "state": "North Island",
+          "country": "New Zealand"
+        }
+      ]
+    },
+    {
+      "abbr": "PETT",
+      "name": "Kamchatka Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "PETT",
+          "name": "Petropavlovsk-Kamchatski Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Petropavlovsk-Kamchatskiy",
+          "state": "Kamchatka Krai",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "NZST",
+      "name": "Tuvalu Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Funafuti",
+          "country": "Tuvalu"
+        }
+      ]
+    },
+    {
+      "abbr": "WAKT",
+      "name": "Wake Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Wake Island",
+          "country": "US Minor Outlying Islands"
+        }
+      ]
+    },
+    {
+      "abbr": "WFT",
+      "name": "Wallis and Futuna Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Mata-Utu",
+          "state": "Wallis and Futuna",
+          "country": "France"
+        }
+      ]
+    }
+  ],
+  "+11": [
+    {
+      "abbr": "AEDT",
+      "name": "Australian Eastern Daylight Time",
+      "isDst": true,
+      "locations": ["Australia"],
+      "aka": [
+        {
+          "abbr": "EDT",
+          "name": "Eastern Daylight Time"
+        },
+        {
+          "abbr": "EDST",
+          "name": "Eastern Daylight Saving Time"
+        },
+        {
+          "abbr": "AET",
+          "name": "Australian Eastern Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Canberra",
+          "state": "Australian Capital Territory",
+          "country": "Australia"
+        },
+        {
+          "city": "Hobart",
+          "state": "Tasmania",
+          "country": "Australia"
+        },
+        {
+          "city": "Melbourne",
+          "state": "Victoria",
+          "country": "Australia"
+        },
+        {
+          "city": "Sydney",
+          "state": "New South Wales",
+          "country": "Australia"
+        }
+      ]
+    },
+    {
+      "abbr": "BST",
+      "name": "Bougainville Standard Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Arawa",
+          "state": "Bougainville",
+          "country": "Papua New Guinea"
+        },
+        {
+          "city": "Buka",
+          "state": "Bougainville",
+          "country": "Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "abbr": "KOST",
+      "name": "Kosrae Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Tofol",
+          "state": "Kosrae",
+          "country": "Micronesia"
+        }
+      ]
+    },
+    {
+      "abbr": "L",
+      "name": "Lima Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "LHDT",
+      "name": "Lord Howe Daylight Time",
+      "isDst": true,
+      "locations": ["Australia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Lord Howe Island",
+          "state": "New South Wales",
+          "country": "Australia"
+        }
+      ]
+    },
+    {
+      "abbr": "MAGT",
+      "name": "Magadan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "MAGT",
+          "name": "Magadan Island Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Magadan",
+          "state": "Magadan Oblast",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "NCT",
+      "name": "New Caledonia Time",
+      "isDst": false,
+      "locations": ["Australia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Noumea",
+          "state": "New Caledonia",
+          "country": "France"
+        }
+      ]
+    },
+    {
+      "abbr": "PONT",
+      "name": "Pohnpei Standard Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Kolonia",
+          "state": "Pohnpei",
+          "country": "Micronesia"
+        },
+        {
+          "city": "Palikir",
+          "state": "Pohnpei",
+          "country": "Micronesia"
+        }
+      ]
+    },
+    {
+      "abbr": "SAKT",
+      "name": "Sakhalin Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Yuzhno-Sakhalinsk",
+          "state": "Sakhalin Oblast",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "SBT",
+      "name": "Solomon Islands Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [
+        {
+          "abbr": "SBT",
+          "name": "Solomon Island Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Gizo",
+          "state": "Ghizo Island",
+          "country": "Solomon Islands"
+        },
+        {
+          "city": "Honiara",
+          "state": "Guadalcanal",
+          "country": "Solomon Islands"
+        }
+      ]
+    },
+    {
+      "abbr": "SRET",
+      "name": "Srednekolymsk Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Srednekolymsk",
+          "state": "Sakha Republic",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "VUT",
+      "name": "Vanuatu Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [
+        {
+          "abbr": "EFATE",
+          "name": "Efate Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Luganville",
+          "state": "Espiritu Santo",
+          "country": "Vanuatu"
+        },
+        {
+          "city": "Port Vila",
+          "state": "Efate",
+          "country": "Vanuatu"
+        }
+      ]
+    }
+  ],
+  "+10:30": [
+    {
+      "abbr": "ACDT",
+      "name": "Australian Central Daylight Time",
+      "isDst": true,
+      "locations": ["Australia"],
+      "aka": [
+        {
+          "abbr": "CDT",
+          "name": "Central Daylight Time"
+        },
+        {
+          "abbr": "CDST",
+          "name": "Central Daylight Savings Time"
+        },
+        {
+          "abbr": "ACT",
+          "name": "Australian Central Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Adelaide",
+          "state": "South Australia",
+          "country": "Australia"
+        },
+        {
+          "city": "Broken Hill",
+          "state": "New South Wales",
+          "country": "Australia"
+        },
+        {
+          "city": "Port Lincoln",
+          "state": "South Australia",
+          "country": "Australia"
+        }
+      ]
+    },
+    {
+      "abbr": "LHST",
+      "name": "Lord Howe Standard Time",
+      "isDst": false,
+      "locations": ["Australia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Lord Howe Island",
+          "state": "New South Wales",
+          "country": "Australia"
+        }
+      ]
+    }
+  ],
+  "+10": [
+    {
+      "abbr": "AEST",
+      "name": "Australian Eastern Standard Time",
+      "isDst": false,
+      "locations": ["Australia"],
+      "aka": [
+        {
+          "abbr": "EST",
+          "name": "Eastern Standard Time"
+        },
+        {
+          "abbr": "AET",
+          "name": "Australian Eastern Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Canberra",
+          "state": "Australian Capital Territory",
+          "country": "Australia"
+        },
+        {
+          "city": "Hobart",
+          "state": "Tasmania",
+          "country": "Australia"
+        },
+        {
+          "city": "Melbourne",
+          "state": "Victoria",
+          "country": "Australia"
+        },
+        {
+          "city": "Sydney",
+          "state": "New South Wales",
+          "country": "Australia"
+        }
+      ]
+    },
+    {
+      "abbr": "CHUT",
+      "name": "Chuuk Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Colonia",
+          "state": "Yap",
+          "country": "Micronesia"
+        }
+      ]
+    },
+    {
+      "abbr": "ChST",
+      "name": "Chamorro Standard Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [
+        {
+          "abbr": "GST",
+          "name": "Guam Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Hagåtña",
+          "state": "Guam",
+          "country": "United States of America"
+        },
+        {
+          "city": "Saipan",
+          "state": "Northern Mariana Islands",
+          "country": "United States of America"
+        }
+      ]
+    },
+    {
+      "abbr": "DDUT",
+      "name": "Dumont-d'Urville Time",
+      "isDst": false,
+      "locations": ["Antarctica"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Dumont d'Urville Station (French)",
+          "state": "Adélie Land",
+          "country": "Antarctica"
+        }
+      ]
+    },
+    {
+      "abbr": "K",
+      "name": "Kilo Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "PGT",
+      "name": "Papua New Guinea Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Lae",
+          "state": "New Guinea",
+          "country": "Papua New Guinea"
+        },
+        {
+          "city": "Port Moresby",
+          "state": "Bougainville",
+          "country": "Papua New Guinea"
+        },
+        {
+          "city": "Rabaul",
+          "state": "New Guinea",
+          "country": "Papua New Guinea"
+        }
+      ]
+    },
+    {
+      "abbr": "VLAT",
+      "name": "Vladivostok Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Vladivostok",
+          "state": "Primorsky Krai",
+          "country": "Russia"
+        }
+      ]
+    }
+  ],
+  "+9:30": [
+    {
+      "abbr": "ACST",
+      "name": "Australian Central Standard Time",
+      "isDst": false,
+      "locations": ["Australia"],
+      "aka": [
+        {
+          "abbr": "CST",
+          "name": "Central Standard Time"
+        },
+        {
+          "abbr": "ACT",
+          "name": "Australian Central Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Adelaide",
+          "state": "South Australia",
+          "country": "Australia"
+        },
+        {
+          "city": "Broken Hill",
+          "state": "New South Wales",
+          "country": "Australia"
+        },
+        {
+          "city": "Port Lincoln",
+          "state": "South Australia",
+          "country": "Australia"
+        }
+      ]
+    }
+  ],
+  "+9": [
+    {
+      "abbr": "I",
+      "name": "India Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "JST",
+      "name": "Japan Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Kobe",
+          "state": "Hyōgo Prefecture",
+          "country": "Japan"
+        },
+        {
+          "city": "Sapporo",
+          "state": "Hokkaido",
+          "country": "Japan"
+        },
+        {
+          "city": "Tokyo",
+          "state": "Tokyo Prefecture",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "abbr": "KST",
+      "name": "Korea Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "KST",
+          "name": "Korean Standard Time"
+        },
+        {
+          "abbr": "KT",
+          "name": "Korea Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Busan",
+          "state": "Yeongnam",
+          "country": "South Korea"
+        },
+        {
+          "city": "Gwangju",
+          "state": "Honam",
+          "country": "South Korea"
+        },
+        {
+          "city": "Pyongyang",
+          "state": "Pyongan Province",
+          "country": "North Korea"
+        },
+        {
+          "city": "Seoul",
+          "state": "Seoul Capital Area",
+          "country": "South Korea"
+        }
+      ]
+    },
+    {
+      "abbr": "PWT",
+      "name": "Palau Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Koror City",
+          "state": "Koror",
+          "country": "Palau"
+        },
+        {
+          "city": "Ngerulmud",
+          "state": "Melekeok",
+          "country": "Palau"
+        }
+      ]
+    },
+    {
+      "abbr": "TLT",
+      "name": "East Timor Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Dili City",
+          "state": "Dili",
+          "country": "East Timor"
+        },
+        {
+          "city": "Suai",
+          "state": "Cova Lima",
+          "country": "East Timor"
+        }
+      ]
+    },
+    {
+      "abbr": "WIT",
+      "name": "Eastern Indonesian Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "WIT",
+          "name": "Waktu Indonesia Timur"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Manokwari",
+          "state": "West Papua",
+          "country": "Indonesia"
+        }
+      ]
+    },
+    {
+      "abbr": "YAKT",
+      "name": "Yakutsk Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Chita",
+          "state": "Zabaykalsky Krai",
+          "country": "Russia"
+        }
+      ]
+    }
+  ],
+  "+8:45": [
+    {
+      "abbr": "ACWST",
+      "name": "Australian Central Western Standard Time",
+      "isDst": false,
+      "locations": ["Australia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Eucla",
+          "state": "Western Australia",
+          "country": "Australia"
+        }
+      ]
+    }
+  ],
+  "+8": [
+    {
+      "abbr": "AWST",
+      "name": "Australian Western Standard Time",
+      "isDst": false,
+      "locations": ["Australia"],
+      "aka": [
+        {
+          "abbr": "WST",
+          "name": "Western Standard Time"
+        },
+        {
+          "abbr": "WAT",
+          "name": "Western Australia Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Bunbury",
+          "state": "Western Australia",
+          "country": "Australia"
+        },
+        {
+          "city": "Kalgoorlie",
+          "state": "Western Australia",
+          "country": "Australia"
+        },
+        {
+          "city": "Perth",
+          "state": "Western Australia",
+          "country": "Australia"
+        }
+      ]
+    },
+    {
+      "abbr": "BNT",
+      "name": "Brunei Darussalam Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "BDT",
+          "name": "Brunei Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Bandar Seri Begawan",
+          "state": "Brunei-Muara",
+          "country": "Brunei"
+        },
+        {
+          "city": "Kuala Belait",
+          "state": "Belait",
+          "country": "Brunei"
+        }
+      ]
+    },
+    {
+      "abbr": "CAST",
+      "name": "Casey Time",
+      "isDst": false,
+      "locations": ["Antarctica"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Casey Station (Australian)",
+          "state": "Wilkes Land",
+          "country": "Antarctica"
+        }
+      ]
+    },
+    {
+      "abbr": "CHOT",
+      "name": "Choibalsan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Choibalsan",
+          "state": "Dornod Province",
+          "country": "Mongolia"
+        }
+      ]
+    },
+    {
+      "abbr": "CST",
+      "name": "China Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "country": "China"
+        },
+        {
+          "city": "Macau",
+          "state": "Macau",
+          "country": "China"
+        },
+        {
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China"
+        },
+        {
+          "city": "Shenzhen",
+          "state": "Guangdong",
+          "country": "China"
+        },
+        {
+          "city": "Taipei",
+          "state": "Taiwan",
+          "country": "China"
+        }
+      ]
+    },
+    {
+      "abbr": "H",
+      "name": "Hotel Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "HKT",
+      "name": "Hong Kong Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Hong Kong",
+          "state": "Hong Kong",
+          "country": "China"
+        },
+        {
+          "city": "Kowloon",
+          "state": "Hong Kong",
+          "country": "China"
+        }
+      ]
+    },
+    {
+      "abbr": "IRKT",
+      "name": "Irkutsk Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Irkutsk",
+          "state": "Irkutsk Oblast",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "MYT",
+      "name": "Malaysia Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "MST",
+          "name": "Malaysian Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Kota Kinabalu",
+          "state": "Sabah",
+          "country": "Malaysia"
+        },
+        {
+          "city": "Kuala Lumpur",
+          "state": "Selangor",
+          "country": "Malaysia"
+        }
+      ]
+    },
+    {
+      "abbr": "PHT",
+      "name": "Philippine Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "PST",
+          "name": "Philippine Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Cebu City",
+          "state": "Cebu",
+          "country": "Philippines"
+        },
+        {
+          "city": "Manila City",
+          "state": "Manila",
+          "country": "Philippines"
+        }
+      ]
+    },
+    {
+      "abbr": "SGT",
+      "name": "Singapore Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "SST",
+          "name": "Singapore Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Singapore ",
+          "state": "Singapore ",
+          "country": "Republic of Singapore"
+        }
+      ]
+    },
+    {
+      "abbr": "ULAT",
+      "name": "Ulaanbaatar Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "ULAT",
+          "name": "Ulan Bator Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Darkhan",
+          "state": "Darkhan-Uul Aimag",
+          "country": "Mongolia"
+        },
+        {
+          "city": "Ulaanbaatar City",
+          "state": "Ulaanbaatar",
+          "country": "Mongolia"
+        }
+      ]
+    },
+    {
+      "abbr": "WITA",
+      "name": "Central Indonesian Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "WITA",
+          "name": "Waktu Indonesia Tengah"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Denpasar",
+          "state": "Bali",
+          "country": "Indonesia"
+        },
+        {
+          "city": "Makassar",
+          "state": "South Sulawesi",
+          "country": "Indonesia"
+        }
+      ]
+    }
+  ],
+  "+7": [
+    {
+      "abbr": "CXT",
+      "name": "Christmas Island Time",
+      "isDst": false,
+      "locations": ["Australia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Flying Fish Cove",
+          "state": "Christmas Island",
+          "country": "Australia"
+        }
+      ]
+    },
+    {
+      "abbr": "DAVT",
+      "name": "Davis Time",
+      "isDst": false,
+      "locations": ["Antarctica"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Davis Station (Australian)",
+          "state": "Vestfold Hills",
+          "country": "Antarctica"
+        }
+      ]
+    },
+    {
+      "abbr": "G",
+      "name": "Golf Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "HOVT",
+      "name": "Hovd Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Khovd",
+          "state": "Khovd Province",
+          "country": "Mongolia"
+        }
+      ]
+    },
+    {
+      "abbr": "ICT",
+      "name": "Indochina Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Bangkok",
+          "country": "Thailand"
+        },
+        {
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam"
+        },
+        {
+          "city": "Phnom Penh",
+          "country": "Cambodia"
+        },
+        {
+          "city": "Vientiane",
+          "country": "Laos"
+        }
+      ]
+    },
+    {
+      "abbr": "KRAT",
+      "name": "Krasnoyarsk Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Krasnoyarsk",
+          "state": "Krasnoyarsk Krai",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "NOVT",
+      "name": "Novosibirsk Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "OMST",
+          "name": "Omsk Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Novosibirsk",
+          "state": "Novosibirsk Oblast",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "WIB",
+      "name": "Western Indonesian Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "WIB",
+          "name": "Waktu Indonesia Barat"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Jakarta",
+          "state": "Jakarta Special Capital Region",
+          "country": "Indonesia"
+        },
+        {
+          "city": "Pontianak",
+          "state": "West Kalimantan",
+          "country": "Indonesia"
+        }
+      ]
+    }
+  ],
+  "+6:30": [
+    {
+      "abbr": "CCT",
+      "name": "Cocos Islands Time",
+      "isDst": false,
+      "locations": ["Indian Ocean"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Bantam",
+          "state": "Cocos Islands",
+          "country": "Australia"
+        }
+      ]
+    },
+    {
+      "abbr": "MMT",
+      "name": "Myanmar Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Naypyidaw",
+          "state": "Naypyidaw Union Territory",
+          "country": "Myanmar"
+        }
+      ]
+    }
+  ],
+  "+6": [
+    {
+      "abbr": "ALMT",
+      "name": "Alma-Ata Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Almaty",
+          "state": "Almaty Province",
+          "country": "Kazakhstan"
+        },
+        {
+          "city": "Nur-Sultan",
+          "state": "Akmola Region",
+          "country": "Kazakhstan"
+        }
+      ]
+    },
+    {
+      "abbr": "BST",
+      "name": "Bangladesh Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Dhaka",
+          "state": "Dhaka District",
+          "country": "Bangladesh"
+        },
+        {
+          "city": "Chittagong",
+          "state": "Chittagong District",
+          "country": "Bangladesh"
+        }
+      ]
+    },
+    {
+      "abbr": "BTT",
+      "name": "Bhutan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Thimphu",
+          "state": "Thimphu District",
+          "country": "Bhutan"
+        }
+      ]
+    },
+    {
+      "abbr": "F",
+      "name": "Foxtrot Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "IOT",
+      "name": "Indian Chagos Time",
+      "isDst": false,
+      "locations": ["Indian Ocean"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Diego Garcia",
+          "state": "British Indian Ocean Territory",
+          "country": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "abbr": "KGT",
+      "name": "Kyrgyzstan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Bishkek",
+          "state": "Chuy Province",
+          "country": "Kyrgyzstan"
+        }
+      ]
+    },
+    {
+      "abbr": "OMST",
+      "name": "Omsk Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "OMST",
+          "name": "Omsk Time"
+        },
+        {
+          "abbr": "NOVT",
+          "name": "Novosibirsk Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Omsk",
+          "state": "Omsk Oblast",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "VOST",
+      "name": "Vostok Time",
+      "isDst": false,
+      "locations": ["Antarctica"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Vostok Station (Russian)",
+          "state": "Princess Elizabeth Land",
+          "country": "Antarctica"
+        }
+      ]
+    }
+  ],
+  "+5:45": [
+    {
+      "abbr": "NPT",
+      "name": "Nepal Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Kathmandu",
+          "state": "Province No. 3",
+          "country": "Nepal"
+        }
+      ]
+    }
+  ],
+  "+5:30": [
+    {
+      "abbr": "IST",
+      "name": "India Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "IT",
+          "name": "India Time"
+        },
+        {
+          "abbr": "IST",
+          "name": "Indian Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Colombo",
+          "state": "Colombo District",
+          "country": "Sri Lanka"
+        },
+        {
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "country": "India"
+        },
+        {
+          "city": "New Delhi",
+          "state": "Delhi",
+          "country": "India"
+        }
+      ]
+    }
+  ],
+  "+5": [
+    {
+      "abbr": "AQTT",
+      "name": "Aqtobe Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Aktobe",
+          "state": "Aktobe Region",
+          "country": "Kazakhstan"
+        }
+      ]
+    },
+    {
+      "abbr": "E",
+      "name": "Echo Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "MAWT",
+      "name": "Mawson Time",
+      "isDst": false,
+      "locations": ["Antarctica"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Mawson Base (Australian)",
+          "state": "Holme Bay",
+          "country": "Antarctica"
+        }
+      ]
+    },
+    {
+      "abbr": "MVT",
+      "name": "Maldives Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Kulhudhuffushi",
+          "state": "Haa Dhaalu Atoll",
+          "country": "Maldives"
+        },
+        {
+          "city": "Malé",
+          "state": "North Malé Atoll",
+          "country": "Maldives"
+        }
+      ]
+    },
+    {
+      "abbr": "ORAT",
+      "name": "Oral Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Oral",
+          "state": "West Kazakhstan Region",
+          "country": "Kazakhstan"
+        }
+      ]
+    },
+    {
+      "abbr": "PKT",
+      "name": "Pakistan Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "PKT",
+          "name": "Pakistan Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Islamabad",
+          "state": "Islamabad Capital Territory",
+          "country": "Pakistan"
+        },
+        {
+          "city": "Karachi",
+          "state": "Sindh",
+          "country": "Pakistan"
+        }
+      ]
+    },
+    {
+      "abbr": "TFT",
+      "name": "French Southern and Antarctic Time",
+      "isDst": false,
+      "locations": ["Indian Ocean"],
+      "aka": [
+        {
+          "abbr": "KIT",
+          "name": "Kerguelen (Islands) Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Île de la Possession",
+          "state": "Crozet Islands",
+          "country": "French Southern Territories"
+        },
+        {
+          "city": "Port-aux-Français",
+          "state": "Kerguelen Islands",
+          "country": "French Southern Territories"
+        }
+      ]
+    },
+    {
+      "abbr": "TJT",
+      "name": "Tajikistan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Dushanbe",
+          "state": "Region of Republican Subordination",
+          "country": "Tajikistan"
+        }
+      ]
+    },
+    {
+      "abbr": "TMT",
+      "name": "Turkmenistan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Ashgabat City",
+          "state": "Ashgabat",
+          "country": "Turkmenistan"
+        }
+      ]
+    },
+    {
+      "abbr": "UZT",
+      "name": "Uzbekistan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Tashkent City",
+          "state": "Tashkent",
+          "country": "Uzbekistan"
+        }
+      ]
+    },
+    {
+      "abbr": "YEKT",
+      "name": "Yekaterinburg Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Yekaterinburg",
+          "state": "Sverdlovsk Oblast",
+          "country": "Russia"
+        }
+      ]
+    }
+  ],
+  "+4:30": [
+    {
+      "abbr": "AFT",
+      "name": "Afghanistan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Kabul",
+          "state": "Kabul Province",
+          "country": "Afghanistan"
+        },
+        {
+          "city": "Kandahar",
+          "state": "Kandahar Province",
+          "country": "Afghanistan"
+        }
+      ]
+    },
+    {
+      "abbr": "IRDT",
+      "name": "Iran Daylight Time",
+      "isDst": true,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "IRST",
+          "name": "Iran Summer Time"
+        },
+        {
+          "abbr": "IDT",
+          "name": "Iran Daylight Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Mashhad",
+          "state": "Razavi Khorasan Province",
+          "country": "Iran"
+        },
+        {
+          "city": "Tehran",
+          "state": "Tehran Province",
+          "country": "Iran"
+        }
+      ]
+    }
+  ],
+  "+4": [
+    {
+      "abbr": "AMT",
+      "name": "Armenia Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Gyumri",
+          "state": "Shirak Province",
+          "country": "Armenia"
+        },
+        {
+          "city": "Yerevan",
+          "state": "Yerevan Province",
+          "country": "Armenia"
+        }
+      ]
+    },
+    {
+      "abbr": "AZT",
+      "name": "Azerbaijan Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Baku",
+          "state": "Absheron Region",
+          "country": "Azerbaijan"
+        },
+        {
+          "city": "Ganja",
+          "state": "Ganja-Gazakh Region",
+          "country": "Azerbaijan"
+        }
+      ]
+    },
+    {
+      "abbr": "D",
+      "name": "Delta Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "GET",
+      "name": "Georgia Standard Time",
+      "isDst": false,
+      "locations": ["Asia", "Europe"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Batumi",
+          "state": "Adjara Region",
+          "country": "Georgia"
+        },
+        {
+          "city": "Tbilisi",
+          "state": "Tbilisi Region",
+          "country": "Georgia"
+        }
+      ]
+    },
+    {
+      "abbr": "GST",
+      "name": "Gulf Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Abu Dhabi",
+          "state": "Abu Dhabi",
+          "country": "United Arab Emirates"
+        },
+        {
+          "city": "Dubai",
+          "state": "Dubai",
+          "country": "United Arab Emirates"
+        },
+        {
+          "city": "Muscat",
+          "state": "Muscat Region",
+          "country": "Oman"
+        },
+        {
+          "city": "Salalah",
+          "state": "Dhofar Province",
+          "country": "Oman"
+        }
+      ]
+    },
+    {
+      "abbr": "MUT",
+      "name": "Mauritius Time",
+      "isDst": false,
+      "locations": ["Africa"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Port Louis",
+          "state": "Port Louis District",
+          "country": "Mauritius"
+        },
+        {
+          "city": "Port Mathurin",
+          "state": "Rodrigues",
+          "country": "Mauritius"
+        }
+      ]
+    },
+    {
+      "abbr": "RET",
+      "name": "Réunion Time",
+      "isDst": false,
+      "locations": ["Africa"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Saint-Denis",
+          "state": "Réunion",
+          "country": "France"
+        },
+        {
+          "city": "Saint-Pierre",
+          "state": "Réunion",
+          "country": "France"
+        }
+      ]
+    },
+    {
+      "abbr": "SAMT",
+      "name": "Samara Time",
+      "isDst": false,
+      "locations": ["Europe"],
+      "aka": [
+        {
+          "abbr": "SAMT",
+          "name": "Samara Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Samara",
+          "state": "Samara Oblast",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "SCT",
+      "name": "Seychelles Time",
+      "isDst": false,
+      "locations": ["Africa"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Victoria",
+          "state": "Mahé Island",
+          "country": "Seychelles"
+        }
+      ]
+    }
+  ],
+  "+3:30": [
+    {
+      "abbr": "IRST",
+      "name": "Iran Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "IT",
+          "name": "Iran Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Mashhad",
+          "state": "Khorasan-e Razavi Province",
+          "country": "Iran"
+        },
+        {
+          "city": "Tehran",
+          "state": "Tehran Province",
+          "country": "Iran"
+        }
+      ]
+    }
+  ],
+  "+3": [
+    {
+      "abbr": "AST",
+      "name": "Arabia Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [
+        {
+          "abbr": "AST",
+          "name": "Arabic Standard Time"
+        },
+        {
+          "abbr": "AST",
+          "name": "Al Manamah Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Baghdad",
+          "state": "Baghdad Governorate",
+          "country": "Iran"
+        },
+        {
+          "city": "Doha",
+          "state": "Ad-Dawhah Municipality",
+          "country": "Qatar"
+        },
+        {
+          "city": "Kuwait City",
+          "state": "Al Asimah Governorate",
+          "country": "Kuwait"
+        },
+        {
+          "city": "Manama",
+          "state": "Capital Governorate",
+          "country": "Bahrain"
+        },
+        {
+          "city": "Riyadh",
+          "state": "Riyadh Region",
+          "country": "Saudi Arabia"
+        },
+        {
+          "city": "Sana'a",
+          "state": "Sana'a Governorate",
+          "country": "Yemen"
+        }
+      ]
+    },
+    {
+      "abbr": "C",
+      "name": "Charlie Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "EAT",
+      "name": "Eastern Africa Time",
+      "isDst": false,
+      "locations": ["Africa", "Indian Ocean"],
+      "aka": [
+        {
+          "abbr": "EAT",
+          "name": "East Africa Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Addis Ababa",
+          "state": "Oromia Region",
+          "country": "Ethiopia"
+        },
+        {
+          "city": "Antananarivo",
+          "state": "Analamanga Region",
+          "country": "Madagascar"
+        },
+        {
+          "city": "Asmara",
+          "state": "Central Region",
+          "country": "Eritrea"
+        },
+        {
+          "city": "Djibouti City",
+          "state": "Djibouti Region",
+          "country": "Djibouti"
+        },
+        {
+          "city": "Juba",
+          "state": "Jubek",
+          "country": "South Sudan"
+        },
+        {
+          "city": "Kampala",
+          "state": "Kampala District",
+          "country": "Uganda"
+        },
+        {
+          "city": "Khartoum",
+          "state": "Khartoum",
+          "country": "Sudan"
+        },
+        {
+          "city": "Mamoutzou",
+          "state": "Mayotte",
+          "country": "France"
+        },
+        {
+          "city": "Mogadishu",
+          "state": "Banaadir Region",
+          "country": "Somalia"
+        },
+        {
+          "city": "Moroni",
+          "state": "Grande Comore",
+          "country": "Comoros"
+        },
+        {
+          "city": "Nairobi",
+          "state": "Nairobi County",
+          "country": "Kenya"
+        },
+        {
+          "city": "Zanzibar City",
+          "state": "Mjini Magharibi Region",
+          "country": "Tanzania"
+        }
+      ]
+    },
+    {
+      "abbr": "EEST",
+      "name": "Eastern European Summer Time",
+      "isDst": true,
+      "locations": ["Europe", "Asia"],
+      "aka": [
+        {
+          "abbr": "EEDT",
+          "name": "Eastern European Daylight Time"
+        },
+        {
+          "abbr": "OESZ",
+          "name": "Osteuropäische Sommerzeit (German)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Amman",
+          "state": "Amman Governorate‎",
+          "country": "Jordan"
+        },
+        {
+          "city": "Athens",
+          "state": "Attica Region‎",
+          "country": "Greece"
+        },
+        {
+          "city": "Beirut",
+          "state": "Beirut Governorate‎",
+          "country": "Lebanon"
+        },
+        {
+          "city": "Bucharest",
+          "state": "București - Ilfov",
+          "country": "Romania"
+        },
+        {
+          "city": "Chișinău",
+          "state": "Chișinău District",
+          "country": "Moldova"
+        },
+        {
+          "city": "Damascus",
+          "state": "Damascus Governorate‎",
+          "country": "Syria"
+        },
+        {
+          "city": "Gaza",
+          "state": "Gaza Strip‎",
+          "country": "Palestine"
+        },
+        {
+          "city": "Helsinki",
+          "state": "Uusimaa Region‎",
+          "country": "Finland"
+        },
+        {
+          "city": "Kiev",
+          "state": "Kiev Oblast",
+          "country": "Ukraine"
+        },
+        {
+          "city": "Mariehamn",
+          "state": "Åland Islands",
+          "country": "Finland"
+        },
+        {
+          "city": "Nicosia",
+          "state": "Nicosia District",
+          "country": "Cyprus"
+        },
+        {
+          "city": "Riga City",
+          "state": "Riga",
+          "country": "Latvia"
+        },
+        {
+          "city": "Sofia",
+          "state": "‎Sofia City Province",
+          "country": "Bulgaria"
+        },
+        {
+          "city": "Tallinn",
+          "state": "‎Harju County",
+          "country": "Estonia"
+        },
+        {
+          "city": "Vilnius",
+          "state": "‎Vilnius County",
+          "country": "Lithuania"
+        }
+      ]
+    },
+    {
+      "abbr": "IDT",
+      "name": "Israel Daylight Time",
+      "isDst": true,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Jerusalem",
+          "state": "‎Jerusalem District/Governorate",
+          "country": "Israel/Palestine"
+        },
+        {
+          "city": "Tel Aviv",
+          "state": "‎Gush Dan",
+          "country": "Israel"
+        }
+      ]
+    },
+    {
+      "abbr": "MSK",
+      "name": "Moscow Standard Time",
+      "isDst": false,
+      "locations": ["Europe", "Asia"],
+      "aka": [
+        {
+          "abbr": "MCK",
+          "name": "Moscow Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Moscow",
+          "state": "Central District",
+          "country": "Russia"
+        }
+      ]
+    },
+    {
+      "abbr": "TRT",
+      "name": "Turkey Time",
+      "isDst": false,
+      "locations": ["Asia", "Europe"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Ankara",
+          "state": "Central Anatolia Region",
+          "country": "Turkey"
+        },
+        {
+          "city": "İstanbul",
+          "state": "Marmara Region",
+          "country": "Turkey"
+        }
+      ]
+    }
+  ],
+  "+2": [
+    {
+      "abbr": "B",
+      "name": "Bravo Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "CAT",
+      "name": "Central Africa Time",
+      "isDst": false,
+      "locations": ["Africa"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Gaborone",
+          "state": "Gaborone District",
+          "country": "Botswana"
+        },
+        {
+          "city": "Gitega",
+          "state": "Gitega Province",
+          "country": "Burundi"
+        },
+        {
+          "city": "Harare",
+          "state": "Harare Province",
+          "country": "Zimbabwe"
+        },
+        {
+          "city": "Kigali",
+          "state": "Kigali Province",
+          "country": "Rwanda"
+        },
+        {
+          "city": "Lilongwe",
+          "state": "Lilongwe District",
+          "country": "Malawi"
+        },
+        {
+          "city": "Lubumbashi",
+          "state": "Haut-Katanga Province",
+          "country": "Democratic Republic of the Congo"
+        },
+        {
+          "city": "Lusaka",
+          "state": "Lusaka Province",
+          "country": "Zambia"
+        },
+        {
+          "city": "Maputo",
+          "state": "Maputo Province",
+          "country": "Mozambique"
+        }
+      ]
+    },
+    {
+      "abbr": "CEST",
+      "name": "Central European Summer Time",
+      "isDst": true,
+      "locations": ["Europe", "Antarctica"],
+      "aka": [
+        {
+          "abbr": "CEDT",
+          "name": "Central European Daylight Time"
+        },
+        {
+          "abbr": "ECST",
+          "name": "European Central Summer Time"
+        },
+        {
+          "abbr": "MESZ",
+          "name": "Mitteleuropäische Sommerzeit (German)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Amsterdam",
+          "state": "North Holland Province",
+          "country": "Netherlands"
+        },
+        {
+          "city": "Andorra la Vella",
+          "state": "Andorra la Vella Parish",
+          "country": "Andorra"
+        },
+        {
+          "city": "Belgrade",
+          "state": "Belgrade District",
+          "country": "Serbia"
+        },
+        {
+          "city": "Berlin",
+          "state": "Berlin",
+          "country": "Germany"
+        },
+        {
+          "city": "Bratislava",
+          "state": "Bratislava Region",
+          "country": "Slovakia"
+        },
+        {
+          "city": "Brussels",
+          "state": "Capital Region",
+          "country": "Belgium"
+        },
+        {
+          "city": "Budapest",
+          "state": "Central Hungary Region",
+          "country": "Hungary"
+        },
+        {
+          "city": "Gibraltar",
+          "state": "Gibraltar",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Copenhagen",
+          "state": "Capital Region",
+          "country": "Denmark"
+        },
+        {
+          "city": "Ljubljana",
+          "state": "City Municipality of Ljubljana",
+          "country": "Slovenia"
+        },
+        {
+          "city": "Luxembourg",
+          "state": "Luxembourg Canton",
+          "country": "Luxembourg"
+        },
+        {
+          "city": "Madrid",
+          "state": "Community of Madrid",
+          "country": "Spain"
+        },
+        {
+          "city": "Monaco",
+          "state": "Monaco",
+          "country": "Monaco"
+        },
+        {
+          "city": "Oslo",
+          "state": "Østlandet District",
+          "country": "Norway"
+        },
+        {
+          "city": "Paris",
+          "state": "Île-de-France",
+          "country": "France"
+        },
+        {
+          "city": "Podgorica",
+          "state": "Podgorica Capital City",
+          "country": "Montenegro"
+        },
+        {
+          "city": "Prague",
+          "state": "Central Bohemian Region",
+          "country": "Czech Republic"
+        },
+        {
+          "city": "Pristina",
+          "state": "Pristina District",
+          "country": "Kosovo"
+        },
+        {
+          "city": "Rome",
+          "state": "Lazio Region",
+          "country": "Italy"
+        },
+        {
+          "city": "San Marino",
+          "state": "San Marino",
+          "country": "Republic of San Marino"
+        },
+        {
+          "city": "Sarajevo",
+          "state": "Sarajevo",
+          "country": "Bosnia and Herzegovina"
+        },
+        {
+          "city": "Skopje",
+          "state": "Skopje Region",
+          "country": "Republic of Macedonia"
+        },
+        {
+          "city": "Stockholm",
+          "state": "Stockholm County",
+          "country": "Sweden"
+        },
+        {
+          "city": "Tirana",
+          "state": "Central Region",
+          "country": "Albania"
+        },
+        {
+          "city": "Troll Station (Norwegian)",
+          "state": "Queen Maud Land",
+          "country": "Antarctica"
+        },
+        {
+          "city": "Vaduz",
+          "state": "Oberland District",
+          "country": "Liechtenstein"
+        },
+        {
+          "city": "Valletta",
+          "state": "South Eastern Region",
+          "country": "Malta"
+        },
+        {
+          "city": "Vatican City",
+          "state": "Vatican City State",
+          "country": "Italy"
+        },
+        {
+          "city": "Vienna",
+          "state": "Vienna",
+          "country": "Austria"
+        },
+        {
+          "city": "Warsaw",
+          "state": "Masovian Voivodeship",
+          "country": "Poland"
+        },
+        {
+          "city": "Zagreb",
+          "state": "Zagreb County",
+          "country": "Croatia"
+        },
+        {
+          "city": "Zürich",
+          "state": "Zürich District",
+          "country": "Switzerland"
+        }
+      ]
+    },
+    {
+      "abbr": "EET",
+      "name": "Eastern European Time",
+      "isDst": false,
+      "locations": ["Europe", "Asia", "Africa"],
+      "aka": [
+        {
+          "abbr": "OEZ",
+          "name": "Osteuropäische Zeit (German)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Amman",
+          "state": "Amman Governorate‎",
+          "country": "Jordan"
+        },
+        {
+          "city": "Athens",
+          "state": "Attica Region‎",
+          "country": "Greece"
+        },
+        {
+          "city": "Beirut",
+          "state": "Beirut Governorate‎",
+          "country": "Lebanon"
+        },
+        {
+          "city": "Bucharest",
+          "state": "București - Ilfov",
+          "country": "Romania"
+        },
+        {
+          "city": "Chișinău",
+          "state": "Chișinău District",
+          "country": "Moldova"
+        },
+        {
+          "city": "Damascus",
+          "state": "Damascus Governorate‎",
+          "country": "Syria"
+        },
+        {
+          "city": "Gaza",
+          "state": "Gaza Strip‎",
+          "country": "Palestine"
+        },
+        {
+          "city": "Helsinki",
+          "state": "Uusimaa Region‎",
+          "country": "Finland"
+        },
+        {
+          "city": "Kiev",
+          "state": "Kiev Oblast",
+          "country": "Ukraine"
+        },
+        {
+          "city": "Mariehamn",
+          "state": "Åland Islands",
+          "country": "Finland"
+        },
+        {
+          "city": "Nicosia",
+          "state": "Nicosia District",
+          "country": "Cyprus"
+        },
+        {
+          "city": "Riga City",
+          "state": "Riga",
+          "country": "Latvia"
+        },
+        {
+          "city": "Sofia",
+          "state": "‎Sofia City Province",
+          "country": "Bulgaria"
+        },
+        {
+          "city": "Tallinn",
+          "state": "‎Harju County",
+          "country": "Estonia"
+        },
+        {
+          "city": "Vilnius",
+          "state": "‎Vilnius County",
+          "country": "Lithuania"
+        }
+      ]
+    },
+    {
+      "abbr": "IST",
+      "name": "Israel Standard Time",
+      "isDst": false,
+      "locations": ["Asia"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Jerusalem",
+          "state": "‎Jerusalem District/Governorate",
+          "country": "Israel/Palestine"
+        },
+        {
+          "city": "Tel Aviv",
+          "state": "‎Gush Dan",
+          "country": "Israel"
+        }
+      ]
+    },
+    {
+      "abbr": "SAST",
+      "name": "South Africa Standard Time",
+      "isDst": false,
+      "locations": ["Africa"],
+      "aka": [
+        {
+          "abbr": "SAST",
+          "name": "South African Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Cape Town",
+          "state": "Western Cape Province",
+          "country": "South Africa"
+        },
+        {
+          "city": "Mbabane",
+          "state": "Hhohho District",
+          "country": "Swaziland"
+        },
+        {
+          "city": "Maseru",
+          "state": "‎Maseru District",
+          "country": "Lesotho"
+        }
+      ]
+    },
+    {
+      "abbr": "WAST",
+      "name": "West Africa Summer Time",
+      "isDst": true,
+      "locations": ["Africa"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Windhoek",
+          "state": "Khomas Region",
+          "country": "Namibia"
+        }
+      ]
+    }
+  ],
+  "+1": [
+    {
+      "abbr": "A",
+      "name": "Alpha Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "BST",
+      "name": "British Summer Time",
+      "isDst": true,
+      "locations": ["Europe"],
+      "aka": [
+        {
+          "abbr": "BDT",
+          "name": "British Daylight Time"
+        },
+        {
+          "abbr": "BDST",
+          "name": "British Daylight Saving Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Belfast",
+          "state": "Northern Ireland",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Cardiff",
+          "state": "Wales",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Douglas",
+          "state": "Isle of Man",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Edinburgh",
+          "state": "Scotland",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "London",
+          "state": "England",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Saint Helier",
+          "state": "Jersey",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Saint Peter Port",
+          "state": "Guernsey",
+          "country": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "abbr": "CET",
+      "name": "Central European Time",
+      "isDst": false,
+      "locations": ["Europe", "Africa"],
+      "aka": [
+        {
+          "abbr": "ECT",
+          "name": "European Central Time"
+        },
+        {
+          "abbr": "CET",
+          "name": "Central Europe Time"
+        },
+        {
+          "abbr": "MEZ",
+          "name": "Mitteleuropäische Zeit (German)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Amsterdam",
+          "state": "North Holland Province",
+          "country": "Netherlands"
+        },
+        {
+          "city": "Andorra la Vella",
+          "state": "Andorra la Vella Parish",
+          "country": "Andorra"
+        },
+        {
+          "city": "Belgrade",
+          "state": "Belgrade District",
+          "country": "Serbia"
+        },
+        {
+          "city": "Berlin",
+          "state": "Berlin",
+          "country": "Germany"
+        },
+        {
+          "city": "Bratislava",
+          "state": "Bratislava Region",
+          "country": "Slovakia"
+        },
+        {
+          "city": "Brussels",
+          "state": "Capital Region",
+          "country": "Belgium"
+        },
+        {
+          "city": "Budapest",
+          "state": "Central Hungary Region",
+          "country": "Hungary"
+        },
+        {
+          "city": "Gibraltar",
+          "state": "Gibraltar",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Copenhagen",
+          "state": "Capital Region",
+          "country": "Denmark"
+        },
+        {
+          "city": "Ljubljana",
+          "state": "City Municipality of Ljubljana",
+          "country": "Slovenia"
+        },
+        {
+          "city": "Luxembourg",
+          "state": "Luxembourg Canton",
+          "country": "Luxembourg"
+        },
+        {
+          "city": "Madrid",
+          "state": "Community of Madrid",
+          "country": "Spain"
+        },
+        {
+          "city": "Monaco",
+          "state": "Monaco",
+          "country": "Monaco"
+        },
+        {
+          "city": "Oslo",
+          "state": "Østlandet District",
+          "country": "Norway"
+        },
+        {
+          "city": "Paris",
+          "state": "Île-de-France",
+          "country": "France"
+        },
+        {
+          "city": "Podgorica",
+          "state": "Podgorica Capital City",
+          "country": "Montenegro"
+        },
+        {
+          "city": "Prague",
+          "state": "Central Bohemian Region",
+          "country": "Czech Republic"
+        },
+        {
+          "city": "Pristina",
+          "state": "Pristina District",
+          "country": "Kosovo"
+        },
+        {
+          "city": "Rome",
+          "state": "Lazio Region",
+          "country": "Italy"
+        },
+        {
+          "city": "San Marino",
+          "state": "San Marino",
+          "country": "Republic of San Marino"
+        },
+        {
+          "city": "Sarajevo",
+          "state": "Sarajevo",
+          "country": "Bosnia and Herzegovina"
+        },
+        {
+          "city": "Skopje",
+          "state": "Skopje Region",
+          "country": "Republic of Macedonia"
+        },
+        {
+          "city": "Stockholm",
+          "state": "Stockholm County",
+          "country": "Sweden"
+        },
+        {
+          "city": "Tirana",
+          "state": "Central Region",
+          "country": "Albania"
+        },
+        {
+          "city": "Troll Station (Norwegian)",
+          "state": "Queen Maud Land",
+          "country": "Antarctica"
+        },
+        {
+          "city": "Vaduz",
+          "state": "Oberland District",
+          "country": "Liechtenstein"
+        },
+        {
+          "city": "Valletta",
+          "state": "South Eastern Region",
+          "country": "Malta"
+        },
+        {
+          "city": "Vatican City",
+          "state": "Vatican City State",
+          "country": "Italy"
+        },
+        {
+          "city": "Vienna",
+          "state": "Vienna",
+          "country": "Austria"
+        },
+        {
+          "city": "Warsaw",
+          "state": "Masovian Voivodeship",
+          "country": "Poland"
+        },
+        {
+          "city": "Zagreb",
+          "state": "Zagreb County",
+          "country": "Croatia"
+        },
+        {
+          "city": "Zürich",
+          "state": "Zürich District",
+          "country": "Switzerland"
+        }
+      ]
+    },
+    {
+      "abbr": "IST",
+      "name": "Irish Summer Time",
+      "isDst": true,
+      "locations": ["Europe"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Dublin",
+          "state": "Leinster Province",
+          "country": "Republic of Ireland"
+        },
+        {
+          "city": "Limerick",
+          "state": "Munster Province",
+          "country": "Republic of Ireland"
+        }
+      ]
+    },
+    {
+      "abbr": "WAT",
+      "name": "West Africa Time",
+      "isDst": false,
+      "locations": ["Africa"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Bangui",
+          "state": "Bangui Prefecture",
+          "country": "Central African Republic"
+        },
+        {
+          "city": "Brazzaville",
+          "state": "Brazzaville Department",
+          "country": "Congo"
+        },
+        {
+          "city": "Kinshasa",
+          "state": "Kinshasa Province",
+          "country": "Democratic Republic of the Congo"
+        },
+        {
+          "city": "Lagos",
+          "state": "Lagos",
+          "country": "Nigeria"
+        },
+        {
+          "city": "Libreville",
+          "state": "Estuaire Province",
+          "country": "Gabon"
+        },
+        {
+          "city": "Luanda",
+          "state": "Luanda Province",
+          "country": "Angola"
+        },
+        {
+          "city": "Malabo",
+          "state": "Bioko Norte Province",
+          "country": "Equatorial Guinea"
+        },
+        {
+          "city": "N'Djamena",
+          "state": "N'Djamena Region",
+          "country": "Chad"
+        },
+        {
+          "city": "Niamey",
+          "state": "Niamey Urban Community",
+          "country": "Niger"
+        },
+        {
+          "city": "Porto-Novo",
+          "state": "Ouémé Department",
+          "country": "Benin"
+        },
+        {
+          "city": "Windhoek",
+          "state": "Khomas Region",
+          "country": "Namibia"
+        },
+        {
+          "city": "Yaounde",
+          "state": "Mfoundi Department‎",
+          "country": "Cameroon"
+        }
+      ]
+    },
+    {
+      "abbr": "WEST",
+      "name": "Western European Summer Time",
+      "isDst": true,
+      "locations": ["Europe", "Africa"],
+      "aka": [
+        {
+          "abbr": "WEDT",
+          "name": "Western European Daylight Time"
+        },
+        {
+          "abbr": "WESZ",
+          "name": "Westeuropäische Sommerzeit (German)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Las Palmas",
+          "state": "Canary Islands‎",
+          "country": "Spain"
+        },
+        {
+          "city": "Lisbon",
+          "state": "Lisbon District",
+          "country": "Portugal"
+        },
+        {
+          "city": "Rabat",
+          "state": "Rabat-Salé-Kénitra Region",
+          "country": "Morocco"
+        },
+        {
+          "city": "Tórshavn",
+          "state": "Faroe Islands‎",
+          "country": "Denmark"
+        }
+      ]
+    }
+  ],
+  "+0": [
+    {
+      "abbr": "AZOST",
+      "name": "Azores Summer Time",
+      "isDst": true,
+      "locations": ["Atlantic"],
+      "aka": [
+        {
+          "abbr": "AZODT",
+          "name": "Azores Daylight Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Ponta Delgada",
+          "state": "Azores‎",
+          "country": "Portugal"
+        }
+      ]
+    },
+    {
+      "abbr": "EGST",
+      "name": "Eastern Greenland Summer Time",
+      "isDst": true,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "EGST",
+          "name": "East Greenland Summer Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Ittoqqortoormiit",
+          "state": "Ittoqqortoormiit",
+          "country": "Greenland"
+        }
+      ]
+    },
+    {
+      "abbr": "GMT",
+      "name": "Greenwich Mean Time",
+      "isDst": false,
+      "locations": ["Europe", "Africa", "North America", "Antarctica"],
+      "aka": [
+        {
+          "abbr": "UTC",
+          "name": "Coordinated Universal Time"
+        },
+        {
+          "abbr": "GT",
+          "name": "Greenwich Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Accra",
+          "state": "Greater Accra Region",
+          "country": "Ghana"
+        },
+        {
+          "city": "Bamako",
+          "state": "‎Bamako Capital District",
+          "country": "Mali"
+        },
+        {
+          "city": "Banjul",
+          "state": "Banjul Division",
+          "country": "Gambia"
+        },
+        {
+          "city": "Belfast",
+          "state": "Northern Ireland",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Bissau",
+          "state": "Bissau Region",
+          "country": "Guinea-Bissau"
+        },
+        {
+          "city": "Cardiff",
+          "state": "Wales",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Conakry",
+          "state": "Conakry Region",
+          "country": "Guinea"
+        },
+        {
+          "city": "Dakar",
+          "state": "Dakar Region",
+          "country": "Senegal"
+        },
+        {
+          "city": "Danmarkshavn",
+          "state": "Greenland",
+          "country": "Denmark"
+        },
+        {
+          "city": "Douglas",
+          "state": "Isle of Man",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Dublin",
+          "state": "Leinster Province",
+          "country": "Republic of Ireland"
+        },
+        {
+          "city": "Edinburgh",
+          "state": "Scotland",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Freetown",
+          "state": "Western Area Province",
+          "country": "Sierra Leone"
+        },
+        {
+          "city": "Jamestown",
+          "state": "Saint Helena",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Lomé",
+          "state": "Maritime Region",
+          "country": "Togo"
+        },
+        {
+          "city": "London",
+          "state": "England",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Monrovia",
+          "state": "Montserrado County",
+          "country": "Liberia"
+        },
+        {
+          "city": "Nouakchott",
+          "state": "Nouakchott Capital District",
+          "country": "Mauritania"
+        },
+        {
+          "city": "Ouagadougou",
+          "state": "Centre Region",
+          "country": "Burkina Faso"
+        },
+        {
+          "city": "Reykjavík",
+          "state": "Capital Region",
+          "country": "Iceland"
+        },
+        {
+          "city": "Saint Helier",
+          "state": "Jersey",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Saint Peter Port",
+          "state": "Guernsey",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "São Tomé",
+          "state": "Água Grande District",
+          "country": "São Tomé and Príncipe"
+        },
+        {
+          "city": "Troll Station (Norwegian)",
+          "state": "Queen Maud Land",
+          "country": "Antarctica"
+        },
+        {
+          "city": "Yamoussoukro",
+          "state": "Yamoussoukro District",
+          "country": "Ivory Coast"
+        }
+      ]
+    },
+    {
+      "abbr": "WET",
+      "name": "Western European Time",
+      "isDst": true,
+      "locations": ["Europe", "Africa"],
+      "aka": [
+        {
+          "abbr": "GMT",
+          "name": "Greenwich Mean Time"
+        },
+        {
+          "abbr": "WEZ",
+          "name": "Westeuropäische Zeit (German)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Las Palmas",
+          "state": "Canary Islands‎",
+          "country": "Spain"
+        },
+        {
+          "city": "Lisbon",
+          "state": "Lisbon District",
+          "country": "Portugal"
+        },
+        {
+          "city": "Rabat",
+          "state": "Rabat-Salé-Kénitra Region",
+          "country": "Morocco"
+        },
+        {
+          "city": "Tórshavn",
+          "state": "Faroe Islands‎",
+          "country": "Denmark"
+        }
+      ]
+    },
+    {
+      "abbr": "Z",
+      "name": "Zulu Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-1": [
+    {
+      "abbr": "AZOT",
+      "name": "Azores Time",
+      "isDst": false,
+      "locations": ["Atlantic"],
+      "aka": [
+        {
+          "abbr": "AZOST",
+          "name": "Azores Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Ponta Delgada",
+          "state": "Azores‎",
+          "country": "Portugal"
+        }
+      ]
+    },
+    {
+      "abbr": "CVT",
+      "name": "Cape Verde Time",
+      "isDst": false,
+      "locations": ["Africa"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Praia",
+          "state": "Praia Municipality",
+          "country": "Cape Verde"
+        }
+      ]
+    },
+    {
+      "abbr": "EGT",
+      "name": "East Greenland Time",
+      "isDst": false,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "EGT",
+          "name": "Eastern Greenland Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Ittoqqortoormiit",
+          "state": "Ittoqqortoormiit",
+          "country": "Greenland"
+        }
+      ]
+    },
+    {
+      "abbr": "N",
+      "name": "November Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-2": [
+    {
+      "abbr": "BRST",
+      "name": "Brasília Summer Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [
+        {
+          "abbr": "BST",
+          "name": "Brazil Summer Time"
+        },
+        {
+          "abbr": "BST",
+          "name": "Brazilian Summer Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Brasilia",
+          "state": "Federal District",
+          "country": "Brazil"
+        },
+        {
+          "city": "Rio de Janeiro",
+          "state": "Rio de Janeiro",
+          "country": "Brazil"
+        },
+        {
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil"
+        },
+        {
+          "city": "Belém",
+          "state": "Pará",
+          "country": "Brazil"
+        }
+      ]
+    },
+    {
+      "abbr": "FNT",
+      "name": "Fernando de Noronha Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Fernando de Noronha",
+          "state": "Pernambuco",
+          "country": "Brazil"
+        }
+      ]
+    },
+    {
+      "abbr": "GST",
+      "name": "South Georgia Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "King Edward Point",
+          "state": "South Georgia and the South Sandwich Islands",
+          "country": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "abbr": "O",
+      "name": "Oscar Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "PMDT",
+      "name": "Pierre & Miquelon Daylight Time",
+      "isDst": true,
+      "locations": ["North America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Saint-Pierre",
+          "state": "Saint Pierre and Miquelon",
+          "country": "France"
+        }
+      ]
+    },
+    {
+      "abbr": "UYST",
+      "name": "Uruguay Summer Time",
+      "isDst": true,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Montevideo",
+          "state": "Montevideo Department",
+          "country": "Uruguay"
+        }
+      ]
+    },
+    {
+      "abbr": "WGST",
+      "name": "Western Greenland Summer Time",
+      "isDst": true,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "WGST",
+          "name": "West Greenland Summer Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Kangerlussuaq",
+          "state": "Greenland ",
+          "country": "Denmark"
+        },
+        {
+          "city": "Nuuk",
+          "state": "Greenland ",
+          "country": "Denmark"
+        },
+        {
+          "city": "Qaanaaq",
+          "state": "Greenland ",
+          "country": "Denmark"
+        }
+      ]
+    }
+  ],
+  "-2:30": [
+    {
+      "abbr": "NDT",
+      "name": "Newfoundland Daylight Time",
+      "isDst": true,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "HAT",
+          "name": "Heure Avancée de Terre-Neuve (French)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "St. John's",
+          "state": "Newfoundland and Labrador",
+          "country": "Canada"
+        }
+      ]
+    }
+  ],
+  "-3": [
+    {
+      "abbr": "ADT",
+      "name": "Atlantic Daylight Time",
+      "isDst": true,
+      "locations": ["North America", "Atlantic"],
+      "aka": [
+        {
+          "abbr": "ADST",
+          "name": "Atlantic Daylight Saving Time"
+        },
+        {
+          "abbr": "AST",
+          "name": "Atlantic Summer Time"
+        },
+        {
+          "abbr": "HAA",
+          "name": "Heure Avancée de l'Atlantique (French)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Charlottetown",
+          "state": "Prince Edward Island",
+          "country": "Canada"
+        },
+        {
+          "city": "Fredericton",
+          "state": "New Brunswick",
+          "country": "Canada"
+        },
+        {
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "country": "Canada"
+        },
+        {
+          "city": "Hamilton",
+          "state": "Bermuda",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Labrador City",
+          "state": "Newfoundland and Labrador",
+          "country": "Canada"
+        },
+        {
+          "city": "Thule Air Base",
+          "state": "Greenland",
+          "country": "Denmark"
+        }
+      ]
+    },
+    {
+      "abbr": "AMST",
+      "name": "Amazon Summer Time",
+      "isDst": true,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Campo Grande",
+          "state": "Mato Grosso Do Sul",
+          "country": "Brazil"
+        },
+        {
+          "city": "Cuiabá",
+          "state": "Mato Grosso",
+          "country": "Brazil"
+        }
+      ]
+    },
+    {
+      "abbr": "ART",
+      "name": "Argentina Time",
+      "isDst": false,
+      "locations": ["Antarctica", "South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Buenos Aires",
+          "state": "Buenos Aires",
+          "country": "Argentina"
+        }
+      ]
+    },
+    {
+      "abbr": "BRT",
+      "name": "Brasília Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [
+        {
+          "abbr": "BT",
+          "name": "Brazil Time"
+        },
+        {
+          "abbr": "BT",
+          "name": "Brazilian Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Brasilia",
+          "state": "Federal District",
+          "country": "Brazil"
+        },
+        {
+          "city": "Rio de Janeiro",
+          "state": "Rio de Janeiro",
+          "country": "Brazil"
+        },
+        {
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil"
+        },
+        {
+          "city": "Belém",
+          "state": "Pará",
+          "country": "Brazil"
+        }
+      ]
+    },
+    {
+      "abbr": "CLST",
+      "name": "Chile Summer Time",
+      "isDst": true,
+      "locations": ["South America", "Antarctica"],
+      "aka": [
+        {
+          "abbr": "CLDT",
+          "name": "Chile Daylight Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Palmer Station (United States)",
+          "state": "Anvers Island",
+          "country": "Antarctica"
+        },
+        {
+          "city": "Santiago",
+          "state": "Santiago Metropolitan Region",
+          "country": "Chile"
+        }
+      ]
+    },
+    {
+      "abbr": "FKST",
+      "name": "Falkland Islands Summer Time",
+      "isDst": true,
+      "locations": ["South America"],
+      "aka": [
+        {
+          "abbr": "FKDT",
+          "name": "Falkland Island Daylight Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Stanley",
+          "state": "Falkland Islands",
+          "country": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "abbr": "GFT",
+      "name": "French Guiana Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Cayenne",
+          "state": "Falkland Islands",
+          "country": "France"
+        }
+      ]
+    },
+    {
+      "abbr": "P",
+      "name": "Papa Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "PMST",
+      "name": "Pierre & Miquelon Standard Time",
+      "isDst": false,
+      "locations": ["North America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Saint-Pierre",
+          "state": "Saint Pierre and Miquelon",
+          "country": "France"
+        }
+      ]
+    },
+    {
+      "abbr": "PYST",
+      "name": "Paraguay Summer Time",
+      "isDst": true,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Asunción",
+          "state": "Capital District",
+          "country": "Paraguay"
+        }
+      ]
+    },
+    {
+      "abbr": "SRT",
+      "name": "Suriname Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Paramaribo",
+          "state": "‎Paramaribo District",
+          "country": "Suriname"
+        }
+      ]
+    },
+    {
+      "abbr": "UYT",
+      "name": "Uruguay Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Montevideo",
+          "state": "Montevideo Department",
+          "country": "Uruguay"
+        }
+      ]
+    },
+    {
+      "abbr": "WGT",
+      "name": "West Greenland Time",
+      "isDst": false,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "WGT",
+          "name": "Western Greenland Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Kangerlussuaq",
+          "state": "Greenland ",
+          "country": "Denmark"
+        },
+        {
+          "city": "Nuuk",
+          "state": "Greenland ",
+          "country": "Denmark"
+        },
+        {
+          "city": "Qaanaaq",
+          "state": "Greenland ",
+          "country": "Denmark"
+        }
+      ]
+    }
+  ],
+  "-3:30": [
+    {
+      "abbr": "NST",
+      "name": "Newfoundland Standard Time",
+      "isDst": false,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "HNT",
+          "name": "Heure Normale de Terre-Neuve (French)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "St. John's",
+          "state": "Newfoundland and Labrador",
+          "country": "Canada"
+        }
+      ]
+    }
+  ],
+  "-4": [
+    {
+      "abbr": "AMT",
+      "name": "Amazon Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Campo Grande",
+          "state": "Mato Grosso Do Sul",
+          "country": "Brazil"
+        },
+        {
+          "city": "Cuiabá",
+          "state": "Mato Grosso",
+          "country": "Brazil"
+        }
+      ]
+    },
+    {
+      "abbr": "AST",
+      "name": "Atlantic Standard Time",
+      "isDst": false,
+      "locations": ["North America", "Atlantic", "Caribbean"],
+      "aka": [
+        {
+          "abbr": "AT",
+          "name": "Atlantic Time"
+        },
+        {
+          "abbr": "AST",
+          "name": "Tiempo Estándar del Atlántico (Spanish)"
+        },
+        {
+          "abbr": "HNA",
+          "name": "Heure Normale de l'Atlantique (French)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Charlottetown",
+          "state": "Prince Edward Island",
+          "country": "Canada"
+        },
+        {
+          "city": "Fredericton",
+          "state": "New Brunswick",
+          "country": "Canada"
+        },
+        {
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "country": "Canada"
+        },
+        {
+          "city": "Hamilton",
+          "state": "Bermuda",
+          "country": "United Kingdom"
+        },
+        {
+          "city": "Labrador City",
+          "state": "Newfoundland and Labrador",
+          "country": "Canada"
+        },
+        {
+          "city": "Thule Air Base",
+          "state": "Greenland",
+          "country": "Denmark"
+        }
+      ]
+    },
+    {
+      "abbr": "BOT",
+      "name": "Bolivia Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Sucre",
+          "state": "Oropeza Province",
+          "country": "Bolivia"
+        }
+      ]
+    },
+    {
+      "abbr": "CDT",
+      "name": "Cuba Daylight Time",
+      "isDst": true,
+      "locations": ["Caribbean"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Havana",
+          "state": "La Habana Province",
+          "country": "Cuba"
+        }
+      ]
+    },
+    {
+      "abbr": "CLT",
+      "name": "Chile Standard Time",
+      "isDst": false,
+      "locations": ["South America", "Antarctica"],
+      "aka": [
+        {
+          "abbr": "CT",
+          "name": "Chile Time"
+        },
+        {
+          "abbr": "CLST",
+          "name": "Chile Standard Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Santiago",
+          "state": "Santiago Metropolitan Region",
+          "country": "Chile"
+        }
+      ]
+    },
+    {
+      "abbr": "EDT",
+      "name": "Eastern Daylight Time",
+      "isDst": true,
+      "locations": ["North America", "Caribbean"],
+      "aka": [
+        {
+          "abbr": "EDST",
+          "name": "Eastern Daylight Savings Time"
+        },
+        {
+          "abbr": "NAEDT",
+          "name": "North American Eastern Daylight Time"
+        },
+        {
+          "abbr": "HAE",
+          "name": "Heure Avancée de l'Est (French)"
+        },
+        {
+          "abbr": "EDT",
+          "name": "Tiempo de verano del Este (Spanish)"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "GYT",
+      "name": "Guyana Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Georgetown",
+          "state": "Demerara-Mahaica Region",
+          "country": "Guyana"
+        }
+      ]
+    },
+    {
+      "abbr": "PYT",
+      "name": "Paraguay Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Asunción",
+          "state": "Capital District",
+          "country": "Paraguay"
+        }
+      ]
+    },
+    {
+      "abbr": "Q",
+      "name": "Quebec Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    },
+    {
+      "abbr": "VET",
+      "name": "Venezuelan Standard Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [
+        {
+          "abbr": "HLV",
+          "name": "Hora Legal de Venezuela (Spanish)"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Caracas",
+          "state": "Capital District",
+          "country": "Venezuela"
+        }
+      ]
+    }
+  ],
+  "-5": [
+    {
+      "abbr": "ACT",
+      "name": "Acre Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Rio Branco",
+          "state": "Acre",
+          "country": "Brazil"
+        }
+      ]
+    },
+    {
+      "abbr": "CDT",
+      "name": "Central Daylight Time",
+      "isDst": true,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "CDST",
+          "name": "Central Daylight Saving Time"
+        },
+        {
+          "abbr": "NACDT",
+          "name": "North American Central Daylight Time"
+        },
+        {
+          "abbr": "HAC",
+          "name": "Heure Avancée du Centre (French)"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "COT",
+      "name": "Colombia Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Bogotá",
+          "state": "Cundinamarca Department",
+          "country": "Colombia"
+        }
+      ]
+    },
+    {
+      "abbr": "CST",
+      "name": "Cuba Standard Time",
+      "isDst": false,
+      "locations": ["Caribbean"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Havana",
+          "state": "La Habana Province",
+          "country": "Cuba"
+        }
+      ]
+    },
+    {
+      "abbr": "EASST",
+      "name": "Easter Island Summer Time",
+      "isDst": true,
+      "locations": ["Pacific"],
+      "aka": [
+        {
+          "abbr": "EADT",
+          "name": "Easter Island Daylight Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Easter Island",
+          "state": "Valparaíso Region",
+          "country": "Chile"
+        }
+      ]
+    },
+    {
+      "abbr": "ECT",
+      "name": "Ecuador Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Quito",
+          "state": "Pichincha Province",
+          "country": "Ecuador"
+        }
+      ]
+    },
+    {
+      "abbr": "EST",
+      "name": "Eastern Standard Time",
+      "isDst": false,
+      "locations": ["North America", "Caribbean", "Central America"],
+      "aka": [
+        {
+          "abbr": "ET",
+          "name": "Eastern Time"
+        },
+        {
+          "abbr": "NAEST",
+          "name": "North American Eastern Standard Time"
+        },
+        {
+          "abbr": "ET",
+          "name": "Tiempo del Este (Spanish)"
+        },
+        {
+          "abbr": "HNE",
+          "name": "Heure Normale de l'Est (French)"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "PET",
+      "name": "Peru Time",
+      "isDst": false,
+      "locations": ["South America"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Lima",
+          "state": "Lima",
+          "country": "Peru"
+        }
+      ]
+    },
+    {
+      "abbr": "R",
+      "name": "Romeo Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-6": [
+    {
+      "abbr": "CST",
+      "name": "Central Standard Time",
+      "isDst": false,
+      "locations": ["North America", "Central America"],
+      "aka": [
+        {
+          "abbr": "CT",
+          "name": "Central Time"
+        },
+        {
+          "abbr": "NACST",
+          "name": "North American Central Standard Time"
+        },
+        {
+          "abbr": "CST",
+          "name": "Tiempo Central Estándar (Spanish)"
+        },
+        {
+          "abbr": "HNC",
+          "name": "Heure Normale du Centre (French)"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "EAST",
+      "name": "Easter Island Standard Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Easter Island",
+          "state": "Valparaíso Region",
+          "country": "Chile"
+        }
+      ]
+    },
+    {
+      "abbr": "GALT",
+      "name": "Galapagos Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Puerto Baquerizo Moreno",
+          "state": "Galápagos Islands",
+          "country": "Ecuador"
+        }
+      ]
+    },
+    {
+      "abbr": "MDT",
+      "name": "Mountain Daylight Time",
+      "isDst": true,
+      "locations": ["North America", "Central America"],
+      "aka": [
+        {
+          "abbr": "MDST",
+          "name": "Mountain Daylight Saving Time"
+        },
+        {
+          "abbr": "NAMDT",
+          "name": "North American Mountain Daylight Time"
+        },
+        {
+          "abbr": "HAR",
+          "name": "Heure Avancée des Rocheuses (French)"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "S",
+      "name": "Sierra Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-7": [
+    {
+      "abbr": "MST",
+      "name": "Mountain Standard Time",
+      "isDst": false,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "MT",
+          "name": "Mountain Time"
+        },
+        {
+          "abbr": "NAMST",
+          "name": "North American Mountain Standard Time"
+        },
+        {
+          "abbr": "HNR",
+          "name": "Heure Normale des Rocheuses (French)"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "PDT",
+      "name": "Pacific Daylight Time",
+      "isDst": true,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "PDST",
+          "name": "Pacific Daylight Saving Time"
+        },
+        {
+          "abbr": "NAPDT",
+          "name": "North American Pacific Daylight Time"
+        },
+        {
+          "abbr": "HAP",
+          "name": "Heure Avancée du Pacifique (French)"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "T",
+      "name": "Tango Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-8": [
+    {
+      "abbr": "AKDT",
+      "name": "Alaska Daylight Time",
+      "isDst": true,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "ADST",
+          "name": "Alaska Daylight Saving Time"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "PST",
+      "name": "Pacific Standard Time",
+      "isDst": false,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "PT",
+          "name": "Pacific Time"
+        },
+        {
+          "abbr": "NAPST",
+          "name": "North American Pacific Standard Time"
+        },
+        {
+          "abbr": "PT",
+          "name": "Tiempo del Pacífico (Spanish)"
+        },
+        {
+          "abbr": "HNP",
+          "name": "Heure Normale du Pacifique (French)"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "PST",
+      "name": "Pitcairn Standard Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Adamstown",
+          "state": "Pitcairn Islands",
+          "country": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "abbr": "U",
+      "name": "Uniform Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-9": [
+    {
+      "abbr": "AKST",
+      "name": "Alaska Standard Time",
+      "isDst": false,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "AT",
+          "name": "Alaska Time"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "GAMT",
+      "name": "Gambier Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [
+        {
+          "abbr": "GAMT",
+          "name": "Gambier Islands Time"
+        }
+      ],
+      "cities": [
+        {
+          "city": "Gambier Islands",
+          "state": "French Polynesia",
+          "country": "France"
+        }
+      ]
+    },
+    {
+      "abbr": "HDT",
+      "name": "Hawaii-Aleutian Daylight Time",
+      "isDst": true,
+      "locations": ["North America"],
+      "aka": [
+        {
+          "abbr": "HADT",
+          "name": "Hawaii Daylight Time"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "V",
+      "name": "Victor Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-9:30": [
+    {
+      "abbr": "MART",
+      "name": "Marquesas Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Marquesas Islands",
+          "state": "French Polynesia",
+          "country": "France"
+        }
+      ]
+    }
+  ],
+  "-10": [
+    {
+      "abbr": "CKT",
+      "name": "Cook Island Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Rarotonga",
+          "state": "Cook Islands",
+          "country": "New Zealand"
+        }
+      ]
+    },
+    {
+      "abbr": "HST",
+      "name": "Hawaii Standard Time",
+      "isDst": false,
+      "locations": ["North America", "Pacific"],
+      "aka": [
+        {
+          "abbr": "HAST",
+          "name": "Hawaii-Aleutian Standard Time"
+        }
+      ],
+      "cities": []
+    },
+    {
+      "abbr": "TAHT",
+      "name": "Tahiti Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Bora Bora",
+          "state": "French Polynesia",
+          "country": "France"
+        }
+      ]
+    },
+    {
+      "abbr": "W",
+      "name": "Whiskey Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-11": [
+    {
+      "abbr": "NUT",
+      "name": "Niue Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Alofi",
+          "state": "Tafiti",
+          "country": "Niue"
+        }
+      ]
+    },
+    {
+      "abbr": "SST",
+      "name": "Samoa Standard Time",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Pago Pago",
+          "state": "American Samoa",
+          "country": "United States of America"
+        }
+      ]
+    },
+    {
+      "abbr": "X",
+      "name": "X-ray Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ],
+  "-12": [
+    {
+      "abbr": "AoE",
+      "name": "Anywhere on Earth",
+      "isDst": false,
+      "locations": ["Pacific"],
+      "aka": [],
+      "cities": [
+        {
+          "city": "Baker Island",
+          "state": "US Minor Outlying Islands",
+          "country": "United States of America"
+        }
+      ]
+    },
+    {
+      "abbr": "Y",
+      "name": "Yankee Time Zone",
+      "isDst": false,
+      "locations": ["Military"],
+      "aka": [],
+      "cities": []
+    }
+  ]
+}
