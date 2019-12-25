@@ -2,10 +2,16 @@
   "name": "ics-together",
   "version": "0.0.1",
   "description": "ICS together",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadCow234/ics-together.git"
+  },
+  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "@types/jquery": "^3.3.31",
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
   }
