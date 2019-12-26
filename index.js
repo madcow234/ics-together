@@ -256,7 +256,7 @@ io.on("connect", socket => {
       let countdown = {
         id: `${elementId}`,
         container: createContainer,
-        content: updateContent('1.5vw', 1, 0, 0, 0, 0, 0, 0)
+        content: updateContent("1.5vw", 1, 0, 0, 0, 0, 0, 0)
       };
       io.emit("update_countdown", countdown);
     }, 2000);
@@ -265,7 +265,7 @@ io.on("connect", socket => {
       let countdown = {
         id: `${elementId}`,
         container: createContainer,
-        content: updateContent('1.5vw', 1, 1, 0, 0, 0, 0, 0)
+        content: updateContent("1.5vw", 1, 1, 0, 0, 0, 0, 0)
       };
       io.emit("update_countdown", countdown);
     }, 3000);
@@ -274,7 +274,7 @@ io.on("connect", socket => {
       let countdown = {
         id: `${elementId}`,
         container: createContainer,
-        content: updateContent('1.4vw', 1, 1, 1, 0, 0, 0, 0)
+        content: updateContent("1.4vw", 1, 1, 1, 0, 0, 0, 0)
       };
       io.emit("update_countdown", countdown);
     }, 4000);
@@ -283,7 +283,7 @@ io.on("connect", socket => {
       let countdown = {
         id: `${elementId}`,
         container: createContainer,
-        content: updateContent('1.3vw', 1, 1, 1, 1, 0, 0, 0)
+        content: updateContent("1.3vw", 1, 1, 1, 1, 0, 0, 0)
       };
       io.emit("update_countdown", countdown);
     }, 5000);
@@ -292,7 +292,7 @@ io.on("connect", socket => {
       let countdown = {
         id: `${elementId}`,
         container: createContainer,
-        content: updateContent('1.2vw', 1, 1, 1, 1, 1, 0, 0)
+        content: updateContent("1.2vw", 1, 1, 1, 1, 1, 0, 0)
       };
       io.emit("update_countdown", countdown);
     }, 6000);
@@ -301,7 +301,7 @@ io.on("connect", socket => {
       let countdown = {
         id: `${elementId}`,
         container: createContainer,
-        content: updateContent('1.0vw', 1, 1, 1, 1, 1, 1, 0)
+        content: updateContent("1.0vw", 1, 1, 1, 1, 1, 1, 0)
       };
       io.emit("update_countdown", countdown);
     }, 7000);
@@ -310,7 +310,7 @@ io.on("connect", socket => {
       let countdown = {
         id: `${elementId}`,
         container: createContainer,
-        content: updateContent('0.9vw', 1, 1, 1, 1, 1, 1, 1)
+        content: updateContent("0.9vw", 1, 1, 1, 1, 1, 1, 1)
       };
       io.emit("update_countdown", countdown);
     }, 8000);

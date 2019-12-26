@@ -76,7 +76,7 @@ $(function() {
                 );
 
                 $("#am-cities-slider").html("");
-                timezone['cities'].forEach(city => {
+                timezone["cities"].forEach(city => {
                   $("#am-cities-slider").append(`
                     <div class="city">
                       <span>${city.city}</span>
@@ -104,7 +104,7 @@ $(function() {
                 );
 
                 $("#pm-cities-slider").html("");
-                timezone['cities'].forEach(city => {
+                timezone["cities"].forEach(city => {
                   $("#pm-cities-slider").append(`
                     <div class="city">
                       <span>${city.city}</span>
