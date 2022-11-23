@@ -15,7 +15,7 @@
     "@types/jquery": "^3.3.31",
     "@types/socket.io": "^2.1.4",
     "express": "^4.17.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
